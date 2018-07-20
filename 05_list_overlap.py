@@ -4,8 +4,8 @@ import random
 #defininig variables for lists length and range of values
 list_length1 = 20
 list_length2 = 20
-values_range1 = range(40)
-values_range2 = range(40)
+values_range1 = range(50)
+values_range2 = range(50)
 
 #generating random lists and declaring c which will store the overlaping values
 a = random.sample(values_range1, list_length1)

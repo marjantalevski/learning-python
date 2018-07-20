@@ -6,10 +6,11 @@ guess = -1
 while(game == "yes"):
     try:
         counter = 0 #counter is here so it resets each new game
-        numbersrange = int(input("Please define upper boundary: "))
-        a = random.randint(1, numbersrange) 
+        a = random.randint(1, int(numbersrange)) 
         while guess != a:
             guess = input("Your guess: ")
+            if guess == "quit":
+                break
             counter += 1
             if int(guess) == a:
                 print("Congrats! You have guessed it!")
