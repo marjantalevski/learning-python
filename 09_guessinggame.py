@@ -15,7 +15,6 @@ while(game == "yes"):
             if int(guess) == a:
                 print("Congrats! You have guessed it!")
                 print("Number of guesses you took: " + str(counter))
-                print("Hope you had fun playing!")
                 break
             elif int(guess) > a:
                 print("Incorrect, try a smaller number.")
