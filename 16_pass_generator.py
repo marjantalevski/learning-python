@@ -12,5 +12,4 @@ def strong_pass_generator(passlength):
     sym =  "".join(random.sample(s, slength))
     password = char + num + sym
     print(password)
-
 strong_pass_generator(10)

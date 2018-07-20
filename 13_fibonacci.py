@@ -17,5 +17,3 @@ try:
     print(fibonacci_generator(index))
 except: 
     print("INVALID INPUT")
-
-
